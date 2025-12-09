@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - BloomPetals</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Contactez-nous</h1>
+        <p>Nous serons ravis de vous aider pour vos futurs événements fleuris.</p>
+    </header>
+
+    <div class="container">
+        <form>
+            <!-- Civilité -->
+            <label for="civilite">Civilité</label>
+            <select id="civilite" name="civilite" required>
+                <option value="">-- Sélectionnez --</option>
+                <option value="Mme">Madame</option>
+                <option value="M">Monsieur</option>
+                <option value="Autre">Autre</option>
+            </select>
+
+            <!-- Nom -->
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+
+            <!-- Prénom -->
+            <label for="prenom">Prénom</label>
+            <input type="text" id="prenom" name="prenom" placeholder="Votre prénom" required>
+
+            <!-- Adresse postale -->
+            <label for="adresse">Adresse postale</label>
+            <textarea id="adresse" name="adresse" rows="3" placeholder="Votre adresse complète" required></textarea>
+
+            <!-- Checkbox -->
+            <div class="checkbox">
+                <input type="checkbox" id="politique" required>
+                <label for="politique">
+                    J’accepte la politique de confidentialité.
+                </label>
+            </div>
+
+            <!-- Bouton -->
+            <button type="submit">Envoyer</button>
+        </form>
+    </div>
+
+</body>
+</html>

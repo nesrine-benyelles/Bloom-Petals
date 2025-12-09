@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+}
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #FFC0CB, #FF69B4);
+    color: white;
+}
+h2 {
+    text-align: center;
+    margin-top: 40px;
+    color: #d1006c;
+}
+.equipe-section {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+}
+.team-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
+.member {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 220px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+.member:hover {
+    transform: scale(1.05);
+}
+.member img {
+    width: 100%;
+    border-radius: 10px;
+}
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background: #222;
+    color: white;
+    text-align: center;
+}

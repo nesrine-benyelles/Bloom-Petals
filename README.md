@@ -11,7 +11,7 @@ BloomPetals est un site web vitrine pour une entreprise spécialisée dans la cr
 - [Structure des fichiers](#structure-des-fichiers)
 - [Technologies utilisées](#technologies-utilisées)
 - [Installation et utilisation](#installation-et-utilisation)
-- [Licence](#licence)
+
 
 ---
 
